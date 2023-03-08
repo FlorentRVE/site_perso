@@ -14,7 +14,7 @@ const Header = () => {
 
       <nav>
 
-        <div>
+        <div className='flex'>
 
             <p>
                 <Link to="/" style={{ textDecoration: pathname === '/' ? 'underline' : 'none' }}>Accueil</Link>
