@@ -21,12 +21,14 @@ const Portfolio = () => {
         <div>
             <Header />
 
-            <div>
+            <h1 className="text-center text-xl text-lime-500 uppercase bg-slate-600 p-4">Projets</h1>
+
+            <div className="flex">
                 {data.map((item) => (
 
                     <Link to={"https://florent-rve.fr/"} target={"_blank"} key={item.id}>
-                        <div style={{backgroundColor: "greenyellow", padding:'10px', margin: '10px'}}>
-                            <img src={item.img} alt={'presentation projet'} style={{width: '250px'}}/>
+                        <div className="bg-lime-400 m-3 p-3 text-center">
+                            <img src={item.img} alt={'presentation projet'} className="w-50"/>
                             <h2>{item.title}</h2>
                             <p>{item.description}</p>
 

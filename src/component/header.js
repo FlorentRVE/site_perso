@@ -1,42 +1,36 @@
 //=============================== Header ==========================
 
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 // Utilisation de pathname pour souligner le texte du menu selon la page visitée.
 
 const Header = () => {
   
-  const { pathname } = useLocation();
-
   return (
     <header>
+      <nav className='flex items-center justify-around bg-black text-white uppercase h-14'>
 
-      <nav>
-
-        <div className='flex'>
-
-            <p>
-                <Link to="/" style={{ textDecoration: pathname === '/' ? 'underline' : 'none' }}>Accueil</Link>
+            <p className='mr-2 hover:text-lime-500'>
+                <Link to="/">Accueil</Link>
             </p>
 
-            <p>
-                <Link to="/" style={{textDecoration: 'none'}}>A Propos</Link>
+            <p className='mr-2 hover:text-lime-500'>
+                <Link to="/">A Propos</Link>
             </p>
 
-            <p>
-                <Link to="/" style={{textDecoration: 'none'}}>Competences</Link>
+            <p className='mr-2 hover:text-lime-500'>
+                <Link to="/">Competences</Link>
             </p>
 
-            <p>
-                <Link to="/portfolio" style={{ textDecoration: pathname === '/portfolio' ? 'underline' : 'none' }}>Portfolio</Link>
+            <p className='mr-2 hover:text-lime-500'>
+                <Link to="/portfolio">Portfolio</Link>
             </p>
 
-            <p>
-                <Link to="/contact" style={{ textDecoration: pathname === '/contact' ? 'underline' : 'none' }}>Contact</Link>
+            <p className='mr-2 hover:text-lime-500'>
+                <Link to="/contact">Contact</Link>
             </p>
-        </div>
-        
+      
       </nav>
     </header>
   );
