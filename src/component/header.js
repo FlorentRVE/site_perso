@@ -9,14 +9,10 @@ const Header = () => {
   
   return (
     <header>
-      <nav className='flex items-center justify-around bg-black text-white uppercase h-14'>
+      <nav className='flex items-center justify-around bg-black text-white uppercase h-14 text-xs'>
 
             <p className='mr-2 hover:text-lime-500'>
                 <Link to="/">Accueil</Link>
-            </p>
-
-            <p className='mr-2 hover:text-lime-500'>
-                <Link to="/">A Propos</Link>
             </p>
 
             <p className='mr-2 hover:text-lime-500'>

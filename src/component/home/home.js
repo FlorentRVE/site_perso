@@ -1,22 +1,23 @@
 //=============================== Composant Home ==========================
 
 import React from 'react';
-import Header from '../header';
+// import Header from '../header';
 import Footer from '../footer';
+import HeaderCarrousel from '../header_carrousel';
 
 
 const Home = () => {
 
   return (
-    <div>   
-
-        < Header/>
+    <div>
         
-        <div>
+        <div className='bg-lime-500 h-52 flex justify-center items-center'>
             <p>
-                this is home
+                A propos de florent riviere développeur web en devenir
             </p>
         </div>
+
+        < HeaderCarrousel/>
 
         < Footer/>
     
