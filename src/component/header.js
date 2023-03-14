@@ -16,7 +16,7 @@ const Header = () => {
             </p>
 
             <p className='mr-2 hover:text-lime-500'>
-                <Link to="/">Competences</Link>
+                <Link to="/competences">Competences</Link>
             </p>
 
             <p className='mr-2 hover:text-lime-500'>

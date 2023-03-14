@@ -6,7 +6,7 @@ const Footer = () => {
         <footer>
             <div className="flex items-center justify-center bg-lime-500 h-16">
                 <p className="">
-                    Copyright © Riviere Florent
+                    Copyright © Florent RVE
                 </p>
             </div>
         </footer>

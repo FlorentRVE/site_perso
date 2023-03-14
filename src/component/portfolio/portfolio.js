@@ -20,7 +20,7 @@ const Portfolio = () => {
     return(
         <div>
 
-            <h1 className="text-center text-xl text-lime-500 uppercase bg-slate-600 p-4">Projets</h1>
+            <h1 className="text-center text-xl text-lime-500 uppercase bg-slate-600 p-4">Portfolio</h1>
 
             <div className="flex">
                 {data.map((item) => (

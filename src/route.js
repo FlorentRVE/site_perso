@@ -2,6 +2,7 @@ import Home from './component/home/home';
 import Error from './component/error';
 import Portfolio from './component/portfolio/portfolio';
 import Contact from './component/contact/contact';
+import Competences from './component/competences/competences';
 
 import {createBrowserRouter} from "react-router-dom";
 
@@ -14,6 +15,8 @@ import {createBrowserRouter} from "react-router-dom";
     { path: "/portfolio", element: <Portfolio />},
 
     { path: "/contact", element: <Contact />},
+
+    { path: "/competences", element: <Competences />},
 
     { path: "/404", element: <Error />}
 
