@@ -2,3 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'Karma', serif;
+}
+
+h1,h2, .spec {
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+}
