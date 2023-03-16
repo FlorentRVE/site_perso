@@ -4,10 +4,10 @@
 @tailwind utilities;
 
 body {
-    font-family: 'Karma', serif;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
-h1,h2, .spec {
+h1,h2,h3, .spec {
     font-family: 'Exo', sans-serif;
     font-weight: 900;
 }

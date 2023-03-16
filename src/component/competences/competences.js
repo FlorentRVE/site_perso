@@ -1,17 +1,15 @@
 import React from "react";
-import Footer from "../footer";
-import Back from "../back"
 
 const Competences = () => {
 
     return(
         <div className="bg-lime-200">
-            <h1 className="text-center text-xl text-lime-500 uppercase bg-slate-600 p-4">Competences</h1>
+            <h1 id="competences" className="text-center text-xl text-lime-500 uppercase bg-slate-800 p-4 mb-10">Competences</h1>
 
             <div className="flex justify-center items-center gap-4 p-6 peer">
 
-                <div className="bg-red-300 p-4 hover:bg-red-400 h-60 w-3/4 rounded-lg hover:shadow-md">
-                    <h2 className="bg-yellow-200 uppercase">Frontend</h2>
+                <div className="bg-slate-200 p-4 h-60 w-3/4 rounded-lg hover:shadow-md text-slate-800 hover:scale-105">
+                    <h2 className="uppercase">Frontend</h2>
                     <p>HTML/CSS</p>
                     <p>TailwindCSS</p>
                     <p>SASS</p>
@@ -20,8 +18,8 @@ const Competences = () => {
 
                 </div>
 
-                <div className="bg-blue-300 p-4 hover:bg-blue-400 h-60 w-3/4 rounded-lg hover:shadow-md">
-                    <h2 className="bg-yellow-200 uppercase">Backend</h2>
+                <div className="bg-slate-800 p-4 h-60 w-3/4 rounded-lg hover:shadow-md text-slate-200 hover:scale-105">
+                    <h2 className="uppercase">Backend</h2>
                     <p>PHP</p>
                     <p>Symfony</p>
                     <p>NodeJS</p>
@@ -31,22 +29,19 @@ const Competences = () => {
 
             </div>
 
-            <div className="w-44 h-44 mt-[-90px] mb-28 mx-auto">
+            <div className="w-32 h-32 mt-[-80px] mb-20 mx-auto">
                 <img alt="ii" src="images/competences.png" className=""/>
 
             </div>
 
-            <div className="bg-purple-300 p-4 hover:bg-purple-400 w-3/4 rounded-t-lg my-0 mx-auto">
-                    <h2 className="bg-yellow-200 uppercase">Autres</h2>
+            <div className="bg-lime-400 p-4 hover:scale-x-105 w-3/4 rounded-t-lg my-0 mx-auto">
+                    <h2 className="uppercase">Autres</h2>
                     <p>Base en réseau</p>
                     <p>Git / GitHub</p>
                     <p>Linux</p>
 
                 </div>
 
-            <Back />
-
-            <Footer />
         </div>
 
     )

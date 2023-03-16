@@ -4,7 +4,7 @@ const Footer = () => {
 
     return(
         <footer>
-            <div className="flex items-center justify-center bg-slate-900 h-16">
+            <div className="flex items-center justify-center bg-slate-900 h-32">
                 <p className="text-slate-200">
                     Copyright © Florent RVE
                 </p>
