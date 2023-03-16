@@ -18,9 +18,9 @@ const Portfolio = () => {
     // Puis on utilise data.map() pour parcourir et manipuler les données.
 
     return(
-        <div id="portfolio" className="bg-lime-400 pb-40">
+        <div id="portfolio" className="bg-slate-200 pb-20">
 
-            <h1 className="text-center text-xl text-lime-400 uppercase bg-slate-800 p-4 mb-10">Portfolio</h1>
+            <h1 className="text-center text-4xl text-lime-400 uppercase bg-slate-800 p-4 mb-10">Portfolio</h1>
 
             <div className="flex flex-col md:flex-row">
                 {data.map((item) => (
@@ -34,6 +34,11 @@ const Portfolio = () => {
                         </div>
                     </Link>
                 ))}
+            </div>
+
+            <div className="w-32 h-32 mx-auto">
+                <img alt="ii" src="images/portfolio.png" className=""/>
+
             </div>
             
         </div>

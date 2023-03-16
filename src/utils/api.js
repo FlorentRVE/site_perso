@@ -1,6 +1,7 @@
 // ============================ API FETCH ========================
 
 const API_BASE_URL = './data/projet.json';
+// const API_BASE_URL = ' https://api.github.com/users/FlorentRVE/repos';
 
 // Récupérer tous les projets
 export const getData = async () => {
