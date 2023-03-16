@@ -4,11 +4,11 @@ import Portfolio from './component/portfolio/portfolio';
 import Contact from './component/contact/contact';
 import Competences from './component/competences/competences';
 
-import {createBrowserRouter} from "react-router-dom";
+import {createHasherRouter} from "react-router-dom";
 
 // Affectation des routes au endpoint correspondant avec page d'erreur par défaut
   
-  const router = createBrowserRouter([
+  const router = createHasherRouter([
     
     { path: "/", element: <Home />},
 
