@@ -10,19 +10,19 @@ const Competences = () => {
 
                 <div className="bg-slate-200 p-4 h-60 w-3/4 text-lg rounded-lg hover:shadow-md text-slate-800 hover:scale-105 md:w-2/6">
                     <h2 className="uppercase text-xl mb-3">Frontend</h2>
-                    <p>HTML/CSS</p>
-                    <p>TailwindCSS</p>
-                    <p>SASS</p>
-                    <p>Javascript</p>
-                    <p>React</p>
+                    <p className="font-bold">HTML/CSS</p>
+                    <p className="font-bold">TailwindCSS</p>
+                    <p className="font-bold">SASS</p>
+                    <p className="font-bold">Javascript</p>
+                    <p className="font-bold">React</p>
 
                 </div>
 
                 <div className="bg-slate-800 p-4 h-60 w-3/4 text-lg rounded-lg hover:shadow-md text-slate-200 hover:scale-105 md:w-2/6">
                     <h2 className="uppercase text-xl mb-3">Backend</h2>
-                    <p>PHP</p>
-                    <p>Symfony</p>
-                    <p>NodeJS</p>
+                    <p className="font-bold">PHP</p>
+                    <p className="font-bold">Symfony</p>
+                    <p className="font-bold">NodeJS</p>
 
                 </div>
 
@@ -36,10 +36,10 @@ const Competences = () => {
 
             <div className="bg-lime-400 p-4 hover:scale-x-105 w-3/4 text-lg rounded-t-lg my-0 mx-auto md:w-4/6">
                     <h2 className="uppercase text-xl mb-3">Autres</h2>
-                    <p>Wordpress (DIVI)</p>
-                    <p>Git / GitHub</p>
-                    <p>Réseau</p>
-                    <p>Linux</p>
+                    <p className="font-bold">Wordpress (DIVI)</p>
+                    <p className="font-bold">Git / GitHub</p>
+                    <p className="font-bold">Réseau</p>
+                    <p className="font-bold">Linux</p>
 
                 </div>
 

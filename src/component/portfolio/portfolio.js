@@ -25,7 +25,7 @@ const Portfolio = () => {
 
                     <Link to={"https://florent-rve.fr/"} target={"_blank"} key={item.id}>
                         <div className="m-3 p-3 text-center rounded-lg hover:brightness-110 hover:scale-105">
-                            <img src={item.img} alt={'presentation projet'} className="w-50 bg-yellow-700 p-3 rounded-lg hover:shadow-lg"/>
+                            <img src={item.img} alt={'presentation projet'} className="w-50 bg-yellow-800 p-3 rounded-lg hover:shadow-lg"/>
                             <h2 className="text-slate-800 uppercase text-lg">{item.title}</h2>
                             <p>{item.description}</p>
 

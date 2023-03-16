@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
 
@@ -8,29 +9,35 @@ const Contact = () => {
 
             <div className="flex flex-col md:flex-row">
                 <div className="p-5 w-3/4 rounded-xl mx-auto md:max-w-screen-lg">
-                    <div className="flex justify-around items-center bg-slate-800 mb-2 rounded-xl">
-                        <p className="text-lime-400 font-extrabold text-2xl">Mail</p>
-                        <img alt="" src="images/mail.png" className=""/>
+                    <Link to={"mailto:florent.rve@gmail.com"} target={"_blank"}>
+                        <div className="flex justify-around items-center bg-slate-800 mb-2 rounded-xl hover:scale-105 hover:shadow-md hover:brightness-110">
+                            <p className="text-lime-400 font-extrabold text-2xl w-56 pl-3">Mail</p>
+                            <img alt="" src="images/mail.png"/>
 
-                    </div>
+                        </div>
+                    </Link>
 
-                    <div className="flex justify-around items-center bg-slate-800 mb-2 rounded-xl">
-                        <p className="text-lime-400 font-extrabold text-2xl">Instagram</p>
-                        <img alt="" src="images/instagram.png"/>
+                    <Link to={"https://www.instagram.com/"} target={"_blank"}>
+                        <div className="flex justify-around items-center bg-slate-800 mb-2 rounded-xl hover:scale-105 hover:shadow-md hover:brightness-110">
+                            <p className="text-lime-400 font-extrabold text-2xl w-56 pl-3">Instagram</p>
+                            <img alt="" src="images/instagram.png"/>
 
-                    </div>
+                        </div>
+                    </Link>
 
-                    <div className="flex justify-around items-center bg-slate-800 mb-2 rounded-xl">
-                        <p className="text-lime-400 font-extrabold text-2xl">Linkedin</p>
-                        <img alt="" src="images/linkedin.png"/>
+                    <Link to={"https://www.linkedin.com"} target={"_blank"}>
+                        <div className="flex justify-around items-center bg-slate-800 mb-2 rounded-xl hover:scale-105 hover:shadow-md hover:brightness-110">
+                            <p className="text-lime-400 font-extrabold text-2xl w-56 pl-3">Linkedin</p>
+                            <img alt="" src="images/linkedin.png"/>
 
-                    </div>
+                        </div>
+                    </Link>
 
                 </div>
 
                 <div className="flex justify-center md:mt-52">
                     <img alt="" src="images/competences.png" className="w-44 h-44 pr-9"/>
-                    <img alt="" src="images/contact.png" className="w-44 h-44 pr-9"/>
+                    <img alt="" src="images/contact.png" className="w-44 h-44 pr-9 hover:-rotate-12 hover:-translate-x-12 transition-all"/>
                 </div>
 
             </div>
