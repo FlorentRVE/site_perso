@@ -1,6 +1,4 @@
 import React from "react";
-// import Footer from "../footer";
-// import Back from "../back"
 import * as api from "../../utils/api"
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
@@ -18,7 +16,7 @@ const Portfolio = () => {
     // Puis on utilise data.map() pour parcourir et manipuler les données.
 
     return(
-        <div id="portfolio" className="bg-slate-200 pb-20">
+        <div id="portfolio" className="bg-slate-200 pb-20 ">
 
             <h1 className="text-center text-4xl text-lime-400 uppercase bg-slate-800 p-4 mb-10">Portfolio</h1>
 
