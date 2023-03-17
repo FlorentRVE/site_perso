@@ -1,7 +1,7 @@
 //=============================== Header ==========================
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import { Carousel } from 'react-carousel3';
 
 
@@ -26,7 +26,7 @@ const HeaderCarrousel = () => {
                     </div>
                 </Link>
 
-                <Link to='#contact'>
+                <Link to="#contact">
                     <div key={1} className="w-44 h-44 p-2 hover:scale-110">
                         <img alt="" src="images/contact.png" />
                         <h3 className='text-center text-xl uppercase'>Contact</h3>
