@@ -33,9 +33,17 @@ const Contact = () => {
                         </div>
                     </Link>
 
+                    <Link to={"https://www.github.com"} target={"_blank"}>
+                        <div className="flex justify-around items-center bg-slate-800 mb-2 rounded-xl hover:scale-105 hover:shadow-md hover:brightness-110">
+                            <p className="text-lime-400 font-extrabold text-2xl w-56 pl-3">GitHub</p>
+                            <img alt="" src="images/github.png"/>
+
+                        </div>
+                    </Link>
+
                 </div>
 
-                <div className="flex justify-center md:mt-52">
+                <div className="flex justify-center md:mt-[300px]">
                     <img alt="" src="images/competences.png" className="w-44 h-44 pr-9"/>
                     <img alt="" src="images/contact.png" className="w-44 h-44 pr-9 hover:-rotate-12 hover:-translate-x-12 transition-all"/>
                 </div>
